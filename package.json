@@ -1,0 +1,28 @@
+
+{
+  "name": "xingchitest",
+  "author": "tbfed",
+  "description": "TODO",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "weex",
+    "vue"
+  ],
+  "scripts": {
+    "dev": "boat dev",
+    "build": "boat build",
+    "debug": "weex-devtool"
+  },
+  "dependencies": {
+    "vue": "^2.1.8",
+    "weex-vue-render": "0.12.x"
+  },
+  "devDependencies": {
+    "boat-cli": "~0.0.8"
+  },
+  "boat": {
+    "dsl": "vue"
+  }
+}
